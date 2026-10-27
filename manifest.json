@@ -1,0 +1,9 @@
+{
+  "name": "TF|TEAM Training",
+  "short_name": "TF|TEAM",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#f4f1ea",
+  "theme_color": "#f4f1ea",
+  "description": "Treinamento inteligente. Evolução constante."
+}

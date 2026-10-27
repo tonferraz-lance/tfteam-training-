@@ -1,0 +1,22 @@
+TF|TEAM Training — MVP 0.1
+
+Conteúdo:
+- index.html: interface mobile-first
+- manifest.json: configuração instalável PWA
+- sw.js: cache básico para abrir depois da primeira visita online
+
+Incluído:
+- Cadastro local de alunos
+- Prescrição convencional, METCON ou sessão mista
+- Registro planejado versus realizado
+- PSE de 0 a 10
+- METCON separado dos totais convencionais
+- Relatório inicial por semana e resumo METCON
+- Impressão/salvar em PDF via navegador
+- Exportação/importação de backup JSON
+
+Limitações importantes:
+- Dados ficam apenas no navegador/dispositivo atual; não há login, nuvem, sincronização nem backup automático.
+- Não usar ainda como banco de dados definitivo para informações sensíveis de clientes.
+- O relatório e os cálculos são um MVP para validar fluxo; devem ser conferidos com a planilha de referência.
+- Para instalação PWA, hospede os arquivos num endereço HTTPS; depois abra no Chrome Android e use menu ⋮ > Adicionar à tela inicial.
